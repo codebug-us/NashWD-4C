@@ -72,4 +72,4 @@ longestPhrase(['hi', 'how', 'are', 'you', 'doing today']);
       fibonaccifyString(10) 
       => "1, 1, 2, 3, 5, 8, 13, 21, 34, 55"
     ```
-Find a partner who is also finished with this exercise and complete [this one](https://github.com/codebug-us/NashWD-4Extension) together :)
+6. Find a partner who is also finished with this exercise and complete [this one](https://github.com/codebug-us/NashWD-4Extension) together :)
