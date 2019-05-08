@@ -62,7 +62,7 @@ longestPhrase(['hi', 'how', 'are', 'you', 'doing today']);
      * * * * 
     * * * * *  
     ```
-4. We are going to write a function called `fibonaccifyArray` that accepts one parameter `n` and returns an array with the first `n` numbers in the Fibonacci sequence. First, do you know how the Fibonacci sequence works? ![fibonacci](https://vignette.wikia.nocookie.net/golden-ratio/images/f/f1/Fibonacci.png/revision/latest?cb=20140624081839). Each term is created using the sum of the previous two terms.
+4. We are going to write a function called `fibonaccifyArray` that accepts one parameter `n` and returns an array with the first `n` numbers in the Fibonacci sequence. First, do you know how the Fibonacci sequence works? ![fibonacci](https://vignette.wikia.nocookie.net/golden-ratio/images/f/f1/Fibonacci.png/revision/latest?cb=20140624081839) Each term is created using the sum of the previous two terms. So, `1 + 1 = 2`, `1 + 2 = 3`, `2 + 3 = 5`, `3 + 5 = 8`, ...
     ```
       fibonaccifyArray(10) 
       => [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
