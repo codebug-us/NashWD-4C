@@ -35,29 +35,40 @@ longestPhrase(['hi', 'how', 'are', 'you', 'doing today']);
 
 ### Challenges
 1. Write a function called `countNum` that takes in an array of numbers and a target number. This function should return the number of times your target number was found in the array. 
-```
-countNum([1, 2, 3, 2, 2, 1, 6], 2);
-=> 3
-```
-```
-countNum([1, 2, 3, 2, 2, 1, 6], 6);
-=> 1
-```
+    ```
+    countNum([1, 2, 3, 2, 2, 1, 6], 2);
+    => 3
+    ```
+    ```
+    countNum([1, 2, 3, 2, 2, 1, 6], 6);
+    => 1
+    ```
 2.Write a function called `ninetyNineBottles` that console.logs the lyrics to [99 Bottles of Beer on the Wall](http://www.99-bottles-of-beer.net/lyrics.html). Hint: You should loop, but don't use an array. 
+
 3. Write a function called `buildATree` that takes in a number `n` and console.logs a tree made of `n` rows of asterisks. For example: 
-``` 
-buildATree(3);  
-  
-  *
- * *  
-* * * 
-```
-``` 
-buildATree(5);  
-  
-    *
-   * *  
-  * * * 
- * * * * 
-* * * * *  
-```
+    ``` 
+    buildATree(3);  
+
+      *
+     * *  
+    * * * 
+    ```
+    ``` 
+    buildATree(5);  
+
+        *
+       * *  
+      * * * 
+     * * * * 
+    * * * * *  
+    ```
+4. We are going to write a function called `fibonaccifyArray` that accepts one parameter `n` and returns an array with the first `n` numbers in the Fibonacci sequence. First, do you know how the Fibonacci sequence works? ![fibonacci](https://vignette.wikia.nocookie.net/golden-ratio/images/f/f1/Fibonacci.png/revision/latest?cb=20140624081839). Each term is created using the sum of the previous two terms.
+    ```
+      fibonaccifyArray(10) 
+      => [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+    ```
+5. Now write a similar function called `fibonaccifyString` that returns a string instead of an array. See the example below...
+    ```
+      fibonaccifyString(10) 
+      => "1, 1, 2, 3, 5, 8, 13, 21, 34, 55"
+    ```
